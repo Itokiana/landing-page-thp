@@ -4,7 +4,7 @@
 
 ***
 
-![alt text](https://github.com/Itokiana/landing-page-thp/team.png "La team Madagascar")
+![alt text](https://github.com/Itokiana/landing-page-thp/raw/master/team.png "La team Madagascar")
 
 ***
 
