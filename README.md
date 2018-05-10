@@ -11,16 +11,16 @@
 ### <p align="center" style="color:blue;">Présentation de l'équipe 1 de Madagascar</p>
 #### Contributeur :
 
-* [@Andry](https://www.github.com/Andryhajanirina)
+* [@Itokiana](https://www.github.com/Itokiana)
 	* A fait la landing page
-* [@Andry](https://www.github.com/Andryhajanirina)
+* [@Fenitra](https://www.github.com/Andryhajanirina)
 	* A fait le call to action (inscription à la newsletter de The Hacking Project)
-* [@Andry](https://www.github.com/Andryhajanirina)
+* [@Riana](https://www.github.com/Andryhajanirina)
 	* A fait l'analyse des metrics
 * [@Lova](https://www.github.com/Andryhajanirina) et 
 [@Ando](https://www.github.com/Andryhajanirina)
 	* A fait le rendu
-* [@Andry](https://www.github.com/Andryhajanirina)
+* [@Cedric](https://www.github.com/tafitasoa)
 	* A fait le readme
 ***
 ### <p align="center" style="color:blue;">Description de chaque partie</p>
@@ -28,7 +28,9 @@
 
 
 ### 1. Le landing page :
-> Description du landingpage
+[https://mighty-ocean-19348.herokuapp.com/](https://mighty-ocean-19348.herokuapp.com/)    
+1. La page est divise en 4 sections: a propos, cursus, l'equipe, contact
+2. La page peut enregistrer et envoyer un email de remerciement d'avoir visiter le site
 
 ### 2. Le call to action
 > Description du call to action
