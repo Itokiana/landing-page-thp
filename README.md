@@ -4,7 +4,7 @@
 
 ***
 
-![alt text](http://image.noelshack.com/fichiers/2018/19/4/1525944824-en-tete-readme-72-01.jpg "La team Madagascar")
+![alt text](https://github.com/Itokiana/landing-page-thp/team.png "La team Madagascar")
 
 ***
 
