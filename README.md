@@ -17,10 +17,10 @@
 	* A fait le call to action (inscription à la newsletter de The Hacking Project)
 * [@Riana](https://www.github.com/Andryhajanirina)
 	* A fait l'analyse des metrics
-* [@Lova](https://www.github.com/Andryhajanirina) et 
-[@Ando](https://www.github.com/Andryhajanirina)
+* [@Lova](https://www.github.com/) et 
+[@Ando](https://www.github.com/ando)
 	* A fait le rendu
-* [@Cedric](https://www.github.com/tafitasoa)
+* [@Andry](https://www.github.com/Andryhajanirina) et [@Cedric](https://www.github.com/tafitasoa)
 	* A fait le readme
 ***
 ### <p align="center" style="color:blue;">Description de chaque partie</p>
