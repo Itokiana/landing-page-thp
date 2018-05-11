@@ -1,3 +1,112 @@
 // Place all the styles related to the home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Amaranth|Monoton|Press+Start+2P|Roboto:300');
+
+body{
+  font-family: 'Roboto', Helvetica;
+  margin-top: 50px;
+}
+
+h2.title{
+  font-size: 3em;
+  font-family: 'Alfa Slab One', cursive;
+  color: #ff5733;
+
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+nav.navbar{
+  background: #581845 !important;
+}
+
+.carousel-caption h5{
+  font-size: 2.8em;
+  font-family: 'Monoton', Helvetica;
+  font-weight: 500;
+  margin-bottom: 22%;
+}
+
+.content{
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.apropos h4, .apropos h2{
+  line-height: 1.5em;
+}
+
+.cursus{
+  background-image: image_url("moussaillon.png");
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  background-clip: content-box;
+  background-size: cover;
+}
+
+.cursus .container{
+  padding-bottom: 50px;
+}
+.nav{
+  margin-bottom: 50px;
+}
+
+.nav .nav-link{
+  font-size: 1.5em;
+  color: black;
+}
+
+.nav .nav-link:hover{
+  color: #ff5733;
+}
+
+.info{
+  padding: 30px 10px 0px 10px;
+  transition: .3s ease all;
+}
+.info i{
+  color: rgb(94, 94, 94);
+  transition: .3s ease all;
+}
+
+
+.info:hover{
+  color: #ff5733;
+}
+.info:hover i{
+  color: #ff5733;
+}
+
+
+.info .icon{
+  margin-bottom: 20px;
+}
+
+.info .info-title{
+  margin-bottom: 20px;
+}
+
+.contact{
+  padding: 10%;
+}
+
+.contact form{
+  text-align: justify;
+}
+
+.team img{
+  width: 70%;
+  border-radius: 100%;
+  margin-bottom: 50px;
+  transition: .3s ease all;
+}
+.team img:hover{
+  border: 7px solid #ff5833;
+  box-sizing: inherit;
+}
+
+.footer{
+  padding: 20px;
+}

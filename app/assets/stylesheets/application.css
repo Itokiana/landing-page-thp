@@ -14,13 +14,4 @@
  *= require_self
  */
 
-body {
-    margin: 0;
-    font-family: sans-serif;
-    background: url("baobab1605_642.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 1039px;
-}
-
 

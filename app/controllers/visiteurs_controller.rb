@@ -9,6 +9,7 @@ class VisiteursController < ApplicationController
         else
             visiteur = Visiteur.create(email: params["email"], message: params['message'])
             if visiteur.valid?
+                VisiteurMailer.welcome_email(visiteur).deliver_now
                 redirect_to index_path, success: "Merci d'avoir visider nos site"
             else
                 flash.now[:danger] = "Erreur de mail"

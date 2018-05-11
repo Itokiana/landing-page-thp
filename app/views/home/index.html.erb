@@ -1,3 +1,271 @@
 
-<h1> Welcome to the home page </h1>
-<h2> <%= link_to "Visiter nos site", visiteurs_new_path %>
+  <!-- NAVIGATION -->
+  <nav id="menus" class="navbar navbar-expand-lg fixed-top navbar-dark text-white shadow-sm">
+    <a class="navbar-brand" href="">
+      <%= image_tag('logo_thp.png', style: "width: 50px", alt: "LOGO_THP")%>
+      &nbsp;THE HACKING PROJECT MADA
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav ml-auto">
+        <a class="nav-item nav-link" href="">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link" href="">À propos</a>
+        <a class="nav-item nav-link" href="">Les cursus</a>
+        <a class="nav-item nav-link" href="">Nos équipes</a>
+        <a class="nav-item nav-link" href="">Contact</a>
+      </div>
+    </div>
+  </nav>
+  <!-- END NAVIGATION -->
+
+  <div data-spy="scroll" data-target="#menus" data-offset="0" >
+    <!-- CAROUSEL -->
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel" data-interval="10000">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <%= image_tag('unique.png', class: "d-block w-100", alt: 'First slide')%>
+
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="animated fadeInDown">UNE &nbsp;FORMATION &nbsp;PAS &nbsp;COMME &nbsp;LES &nbsp;AUTRES</h5>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <%= image_tag('everywhere.png', class: "d-block w-100", alt: 'Second slide')%>
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="animated fadeInLeft">APPRENDRE &nbsp;PARTOUT</h5>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <%= image_tag('peer.png', class: "d-block w-100", alt: 'Third slide')%>
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="animated fadeInRight">UNE &nbsp;FORMATION &nbsp;EN &nbsp;PEER-LEARNING</h5>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    <!-- END CAROUSEL -->
+
+    <!-- A PROPOS THP SECTION -->
+    <div class="apropos content" id="infos">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 ml-auto mr-auto text-center">
+                    <br><br>
+                    <h2 class="title">The Hacking Project</h2>
+                    <h4 class="description">
+                    The Hacking Project est une jeune pousse qui souhaite apporter à tous les compétences necessaires pour le monde de demain. Nos formations se déroulent du lundi au vendredi de 9h à 20h pendant 2 mois 1/2. Chez nous, pas de professeurs, pas de locaux.</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END SECTION -->
+
+    <!-- CURSUS SECTION -->
+    <div class="cursus content" id="cursus">
+      <div class="container">
+        <h2 class="title text-center">Les cursus</h2>
+        <ul class="nav justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link active" data-toggle="tab" href="#codeur" role="tab" aria-controls="profile" aria-selected="false">Codeur</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#business" role="tab" aria-controls="profile" aria-selected="false">Business Dev</a>
+          </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+          <div class="tab-pane fade show active" id="codeur" role="tabpanel" aria-labelledby="home-tab">
+            <div class="row">
+              <div class="col-md-3">
+                  <div class="card shadow animated flipInY">
+                      <div class="info text-center" style="height: 380px;">
+                          <div class="icon">
+                            <i class="fa fa-6x icon-html5" aria-hidden="true"></i>
+                          </div>
+                          <h4 class="info-title">L'HTML et le CSS</h4>
+                          <p class="description">En une semaine vous serez capable de refaire la home page de google ou la landing page de votre projet. En 3 semaines vous aurez le niveau pour vendre vos réalisations.</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-3">
+                  <div class="card shadow animated flipInY">
+                      <div class="info text-center" style="height: 380px;">
+                          <div class="icon">
+                            <i class="fa fa-6x icon-ruby" aria-hidden="true"></i>
+                          </div>
+                          <h4 class="info-title">Ruby</h4>
+                          <p class="description">Avec Ruby vous découvrirez le scrapping de data, l'utilisation du deep web et les bases de la célèbre Programmation Orientée Objet.</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-3">
+                  <div class="card shadow animated flipInY">
+                      <div class="info text-center" style="height: 380px;">
+                          <div class="icon">
+                            <i class="fa fa-6x icon-ruby-on-rails" aria-hidden="true"></i>
+                          </div>
+                          <h4 class="info-title">Ruby On Rails</h4>
+                          <p class="description">Découvrez l'un des framework web les plus célèbres. Il vous permettra de rapidement coder une application web fonctionnelle, avec une base de données.</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-3">
+                  <div class="card shadow animated flipInY">
+                      <div class="info text-center" style="height: 380px;">
+                          <div class="icon">
+                            <i class="fa fa-6x icon-javascript" aria-hidden="true"></i>
+                          </div>
+                          <h4 class="info-title">JavaScript</h4>
+                          <p class="description">Javascript vous permet de rendre votre site dynamique et d'inter-agir avec vos utilisateurs. </p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          </div>
+          <div class="tab-pane fade" id="business" role="tabpanel" aria-labelledby="profile-tab">
+            <div class="row">
+              <div class="col-md-3">
+                  <div class="card shadow animated flipInY">
+                      <div class="info text-center">
+                          <div class="icon">
+                              <i class="fa fa-6x fa-desktop" aria-hidden="true"></i>
+                          </div>
+                          <h4 class="info-title">Les propales</h4>
+                          <p class="description">Vous apprendrez les bases d'une bonne présentation commerciale, la réalisation, et l'exploration des bonnes pratiques pour faire une proposition commerciale qui impacte et vend du rêve. Avec les meilleurs outils bien entendu.</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-3">
+                  <div class="card shadow animated flipInY">
+                      <div class="info text-center">
+                          <div class="icon">
+                              <i class="fa fa-6x fa-envelope-open" aria-hidden="true"></i>
+                          </div>
+                          <h4 class="info-title">Lead et emailing</h4>
+                          <p class="description">Nous allons ici utiliser tout un tas d'outils pour vous permettre de qualifier au mieux vos leads potentiels. Sur certains projets vous devrez les générer vous même et pour d'autres ils vous seront fournis par The Hacking Project</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-3">
+                  <div class="card shadow animated flipInY">
+                      <div class="info text-center">
+                          <div class="icon">
+                              <i class="fa fa-6x fa-phone" aria-hidden="true"></i>
+                          </div>
+                          <h4 class="info-title">Phoning</h4>
+                          <p class="description">On passe à une phase importante du metier de commercial. La première approche "humaine" du client BtoB. Vous découvrirez comment obtenir un rdv, quelle attitude avoir, et faire un script qui vous permettra de décrocher des RDVs.</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-3">
+                  <div class="card shadow animated flipInY">
+                      <div class="info text-center">
+                          <div class="icon">
+                              <i class="fa fa-6x fa-handshake" aria-hidden="true"></i>
+                          </div>
+                          <h4 class="info-title">Le RDV physique</h4>
+                          <p class="description">Votre objectif sera de vous adapter. Vous adapter à votre interlocuteur et à ce que vous vendez, d'un rendez-vous à l'autre vous aurez des objectifs différents. Vous rencontrerez des élus locaux, des chefs d'entreprise, des chefs de projets, des serveurs.</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END SECTION -->
+
+    <!-- TEAM SECTION -->
+    <div class="content" id="team">
+      <div class="container">
+        <h2 class="title">Nos équipes</h2>
+        <div class="row team text-center">
+          <div class="col-md-3 col-lg-3">
+            <%= image_tag('itokiana.png')%>
+          </div>
+          <div class="col-md-3 col-lg-3">
+            <%= image_tag('andry.png')%>
+          </div>
+          <div class="col-md-3 col-lg-3">
+            <%= image_tag('ako.png')%>
+          </div>
+          <div class="col-md-3 col-lg-3">
+            <%= image_tag('bitcoin.png')%>
+          </div>
+          <div class="col-md-3 col-lg-3">
+            <%= image_tag('cedric.png')%>
+          </div>
+          <div class="col-md-3 col-lg-3">
+            <%= image_tag('fenitra.png')%>
+          </div>
+          <div class="col-md-3 col-lg-3">
+            <%= image_tag('fetra.png')%>
+          </div>
+          <div class="col-md-3 col-lg-3">
+            <%= image_tag('lova.png')%>
+          </div>
+          <div class="col-md-3 col-lg-3">
+            <%= image_tag('mino.png')%>
+          </div>
+          <div class="col-md-3 col-lg-3">
+            <%= image_tag('nao.png')%>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END SECTION -->
+
+    <!-- CONTACT SECTION -->
+    <div class="content" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 ml-auto mr-auto text-center">
+            <h2 class="title text-center">Nous contacter</h2>
+            <div class="contact shadow">
+              <form action="<%= newsletter_path %>" method="post">
+              <input name="authenticity_token" type="hidden" value="<%= form_authenticity_token %>">
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Votre email</label>
+                    <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputPassword1">Votre message</label>
+                    <textarea name="message" class="form-control" placeholder="Votre message"></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Envoyer</button>
+                </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END SECTION -->
+  </div>
+
+  <!-- FOOTER SECTION -->
+  <footer class="footer footer-default" style="z-index: 1000;">
+      <div class="container">
+          <div class="copyright">
+              &copy;
+              <script>
+                  document.write(new Date().getFullYear())
+              </script>, Made with ❤️ in Madagascar.
+          </div>
+      </div>
+  </footer>
+  <!-- END SECTION -->
+
